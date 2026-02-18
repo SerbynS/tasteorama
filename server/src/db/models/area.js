@@ -7,4 +7,4 @@ const areasSchema = new Schema(
   { timestamps: true, versionKey: false },
 );
 
-export const SessionsCollection = model('areas', areasSchema);
+export const AreasCollection = model('areas', areasSchema);

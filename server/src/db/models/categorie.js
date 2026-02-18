@@ -7,4 +7,4 @@ const categoriesSchema = new Schema(
   { timestamps: true, versionKey: false },
 );
 
-export const SessionsCollection = model('categories', categoriesSchema);
+export const CategoriesCollection = model('categories', categoriesSchema);
