@@ -4,7 +4,7 @@ const ingredientsSchema = new Schema(
   {
     name: {
       type: String,
-      require: true,
+      required: true,
     },
     desc: {
       type: String,

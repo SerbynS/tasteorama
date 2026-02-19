@@ -4,30 +4,30 @@ const recipesSchema = new Schema(
   {
     title: {
       type: String,
-      require: true,
+      required: true,
     },
     category: {
       type: Schema.Types.ObjectId,
       ref: 'categories',
-      require: true,
+      required: true,
     },
     owner: {
       type: Schema.Types.ObjectId,
       ref: 'users',
-      require: true,
+      required: true,
     },
     area: {
       type: Schema.Types.ObjectId,
       ref: 'areas',
-      require: true,
+      required: true,
     },
     instructions: {
       type: String,
-      require: true,
+      required: true,
     },
     description: {
       type: String,
-      require: true,
+      required: true,
     },
     thumb: { type: String },
     time: { type: Number },
